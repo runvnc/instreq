@@ -1,13 +1,13 @@
 # Description
 
-Like `require()` but installs modules if not found in `./node_modules` (runs`npm -i [mod] --save')`
+Like `require()` but installs modules if not found in `./node_modules` (runs`npm -i  [mod] --save')`
 
 This is mainly useful for the Node REPL.
 
 # Usage
 
-```shell
-> var instreq=require('instreq')
+```
+> instreq=require('instreq')
 ...
 
 > instreq('better-log').install();
@@ -15,7 +15,5 @@ This is mainly useful for the Node REPL.
 
 > console.log({hi:'there'});
 ... (prints output in color etc. now)
-
-```
 
 ```
