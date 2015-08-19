@@ -1,6 +1,6 @@
 # Description
 
-Like `require()` but installs modules if not found in `./node_modules` (runs`npm -i  [mod] --save')`
+Like `require()` but installs modules if not found in `./node_modules` (runs`npm i  [mod] --save')`
 
 This is mainly useful for the Node REPL.
 
@@ -17,3 +17,4 @@ This is mainly useful for the Node REPL.
 ... (prints output in color etc. now)
 
 ```
+
