@@ -7,14 +7,13 @@ This is mainly useful for the Node REPL.
 # Usage
 
 ```
-> instreq=require('instreq')
-...
+$ npm init
+$ npm i instreq
+$ node
 
-> instreq('better-log').install();
-...
-
-> console.log({hi:'there'});
-... (prints output in color etc. now)
+> require('instreq')
+> moment=instreq('moment')
+> moment().format()
 
 ```
 

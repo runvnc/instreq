@@ -5,3 +5,4 @@ module.exports = function(m) {
   }
   return require(m);
 }
+global['instreq'] = module.exports;
